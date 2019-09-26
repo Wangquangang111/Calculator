@@ -34,54 +34,81 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zwX-z3-WzV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjU-zb-uWQ">
                                 <rect key="frame" x="20" y="413" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l0h-Vp-AvO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WxA-op-hC3">
                                 <rect key="frame" x="20" y="496" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZB-XD-Ffy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0P-Qm-cUS">
                                 <rect key="frame" x="103" y="330" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Zd-ge-UFv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ira-ii-cCG">
                                 <rect key="frame" x="103" y="413" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7RD-1r-2a8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mx2-7r-Jb1">
                                 <rect key="frame" x="103" y="496" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gA1-Fg-X7V"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hK-jU-1L0">
                                 <rect key="frame" x="201" y="330" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vqe-pc-MBW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F19-s3-KEr">
                                 <rect key="frame" x="201" y="413" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GJc-V5-Vbe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqP-tA-Tu7">
                                 <rect key="frame" x="201" y="496" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9na-We-LzH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNo-aG-lwR">
                                 <rect key="frame" x="319" y="330" width="75" height="75"/>
@@ -112,6 +139,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="75" height="75"/>
                                 <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="pressNumWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qhn-rQ-KWz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="-1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UR-3W-gDh">
                                 <rect key="frame" x="201" y="606" width="75" height="75"/>
@@ -129,6 +159,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="lblText" destination="KzZ-jO-2YB" id="ZO6-iM-2DY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
